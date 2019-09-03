@@ -1,0 +1,260 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-color: lightgrey;
+
+    }
+
+.header{
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+
+ }
+
+ .header h2{
+  width: 40%;
+  margin: 50px auto 0px;
+  color: navy blue;
+  text-align: center;
+  border: 1px solid #b3d9ff;
+  border-bottom: none;
+  padding: 20px;
+  background-color: #4dd1c0;
+  border-radius: 10px;
+}   
+
+
+.header img {
+  width: auto;
+  height: 80px;
+
+}
+
+.head h1{
+  text-align: center;
+  color: #a12887;
+
+}
+
+.head a{
+  text-decoration: none;
+  font-size: 20px;
+  color: navy blue;
+  font-weight: bold;
+}
+
+.section img{
+  height: 450px;
+  width:100%;
+}
+
+form, .content {
+  width: 40%;
+  margin: 0px auto;
+  height: 50%;
+  padding: 20px;
+  border: 1px solid rgba(147, 184, 189,0.8);
+  background: white;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 10px 10px 3px #b3d9ff;
+}
+
+.input-group {
+  margin: 10px 0px 10px 0px;
+  
+}
+
+
+.input-group p {
+  display: block;
+  text-align: left;
+  margin: 3px;
+  font-weight: bold;
+
+}
+.input-group h2 {
+  color:blue;
+  display: block;
+  text-align: left;
+  margin: 3px;
+  font-weight: bold;
+
+
+}
+.input-group input[type="text"],input[type="password"],input[type="email"]{
+  height: 30px;
+  width: 95%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border:none;
+  border-bottom: 1px solid lightgrey;
+  background: transparent;
+  outline: none;
+}
+
+.input-group input[type="submit"] {
+  padding: 10px;
+  font-size: 25px;
+  color: white;
+  background:linear-gradient(to bottom right,cyan,#001a33);
+  border: none;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.input-group a{
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  left:50%;
+}
+.container
+{
+  background-color:white;
+  background-size:100%;
+  height:130vh;
+  background-size: cover;
+}
+.nav
+{
+  height: 60px;
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:90%;
+  margin-top: 30px;
+  margin-left: 20px;
+  border-right:10px solid #f8f7f7;
+  border-bottom:10px solid #f8f7f7;
+
+}
+.nav_link
+  {
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: right;
+  }
+.nav_link a{
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0 12px 0 12px;
+}
+
+.nav_img img
+{
+  border-radius: 50%;
+  margin-right: 30px;
+  margin-top: 10px;
+  width: 100px;
+  
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+  }
+  
+ 
+  .column {
+    width: 100%;
+    box-shadow: 10px 10px 3px grey;
+  
+  }
+  .first h3{
+    text-align: center;
+  }
+  .cnt{
+    text-align: justify;
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+  .last{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .last a{
+  color:red;
+  text-decoration: none;
+  padding: 10px;
+}
+  
+ 
+.main{
+  padding: 9%; 
+}
+.main1{
+ 
+   padding:2% 9%;
+}
+.nava1 h1{
+  text-align: center;
+  text-transform: uppercase;
+  font-family:CCClobberinTimeCrunchy, sans-serif;
+  font-style: normal;
+  font-weight:400;
+  font-size: 40px;
+}
+.nav_data{
+  text-align: right;
+  margin: 20px;
+}
+.nav_data a{
+  text-align: right;
+    text-decoration: none;
+    font-size: 25px;
+  color:#549be2;
+}
+.nav_data1 a{
+  text-align: right;
+    text-decoration: none;
+    font-size: 15px;
+  color:#549be2;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
+
+
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+
+  .row {
+    grid-template-columns: repeat(3,1fr);
+  }
+  .nav_data a{
+    text-align: right;
+    text-decoration: none;
+    font-size: 40px;
+    color:#549be2;
+    padding: 10px;
+  }
+  .nav_data1 a{
+    text-align: right;
+    text-decoration: none;
+    font-size: 20px;
+    color:#549be2;
+    margin-right: 70px;
+    margin-top: 30px;
+
+  }
+  .nav{
+    width: 83%;
+  margin-top: 40px;
+  margin-left: 125px; 
+  }
+  .nav_link a{
+    font-size: 20px;
+  }
+  .main {
+    padding: 2% 9%;
+  }
+}
+
